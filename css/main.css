@@ -1,5 +1,10 @@
 body.sigin-body {
-  background-color: #000000;
+  background-image: url('https://wallpaperaccess.com/full/1092594.jpg');
+  position: relative;
+    top: 0;
+    width: auto;
+    height: auto;
+    background-size: cover;
 }
 h1{
   color: black;
@@ -12,10 +17,8 @@ h1{
 
 .card.signin-card {
   padding: 40px 0px 20px;
-  background-color: #f4f4f4;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  background-color: #f7f1ff;
+  box-shadow: 5px 5px 5px #c49ee7;
 }
 
 img.signin-img {
@@ -32,8 +35,8 @@ form.sigin-form {
 }
 
 button.signin-btn {
-  background: #1ad1ff;
-  color: #332902;
+  background: #5c00ce;
+  color: #ffffff;
   width: 100%;
   margin-bottom: 1.2rem;
 }
@@ -43,4 +46,11 @@ a.create-new-account {
   text-align: center;
   display: block;
   margin-top: 15px;
+}
+
+h1.override {
+  font-size: 35px;
+  font-weight: 500;
+	font-family: 'Cairo', sans-serif;
+  letter-spacing: 4px;
 }
